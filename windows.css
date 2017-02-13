@@ -290,3 +290,25 @@ form .inline
     float:right;
     height:16px;
 }
+table.report td.amount,
+table.report td.number
+{
+    text-align: right;
+}
+#windows_taskbar
+{
+    background: black;
+    height: 12px;
+    position: absolute;
+    width:100%;
+    top:0;
+    left:0;
+
+    background:#ddd;
+    border-bottom:1px solid #ccc;
+    border: 1px solid silver;
+    padding:1px;
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;    
+}

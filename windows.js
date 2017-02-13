@@ -1,5 +1,11 @@
 function windows (selector, debug)
 {
+    /*
+    var taskbar = document.createElement('div');
+    taskbar.id = 'windows_taskbar';
+    document.body.appendChild(taskbar);
+    */
+
     var positions = JSON.parse(localStorage.windows || "{}");
     var windows = document.querySelectorAll(selector);
     var index = 0;
