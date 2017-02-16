@@ -152,7 +152,7 @@ function windows (selector, debug)
                         {
                             win.setAttribute('title',title.innerHTML);
                         }
-                        title.innerHTML = win.style.zIndex+':'+win.id+' ['+parseInt(win.style.top)+','+parseInt(win.style.left)+']';
+                        title.innerHTML = '['+parseInt(win.style.top)+','+parseInt(win.style.left)+'] ' + win.style.zIndex+':'+win.id;
                     }
                 };
                 function up(evt)
