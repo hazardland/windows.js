@@ -23,8 +23,9 @@ body
 {
 	background:#ddd;
 	cursor:move;
-	border-bottom:1px solid #ccc;
+	/*border-bottom:1px solid #ccc;*/
     border: 1px solid silver;
+    /*border-bottom: 1px solid gray;*/
     padding:1px;
     user-select:none;
     -webkit-user-select:none;
